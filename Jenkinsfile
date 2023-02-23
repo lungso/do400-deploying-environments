@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Tests') {
             steps {
-                sh 'mvnw clean test'
+                sh './mvnw clean test'
             }
         }
         stage('Package') {
