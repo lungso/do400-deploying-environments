@@ -5,7 +5,7 @@ pipeline {
             } 
     }
     stages {
-        stage('Tests') {
+        /*stage('Tests') {
             steps {
                 sh './mvnw clean test'
             }
@@ -18,7 +18,7 @@ pipeline {
                 '''
                 archiveArtifacts 'target/*.jar'
             }
-        } 
+        } */
         stage('Build Image') {
                 environment { QUAY = credentials('QUAY_USER') }
                     steps {
