@@ -39,5 +39,5 @@ pipeline {
                             -Dquarkus.container-image.push=true
                         ''' }
             }
-    尸}
+    }
 }
