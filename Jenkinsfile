@@ -45,7 +45,7 @@ pipeline {
                         ''' }
             }
         stage('Deploy - Stage') {
-            enironment {
+            environment {
                 APP_NAMESPACE = "${RHT_OCP4_DEV_USER}-shopping-cart-stage"
                  QUAY = credentials('QUAY_USER')
             }
