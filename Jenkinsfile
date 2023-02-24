@@ -5,7 +5,7 @@ pipeline {
             } 
     }
     environment {
-        RHT_OCP4_DEV_USER = 'kuufrg'
+        RHT_OCP4_DEV_USER = 'ssl037'
         DEPLOYMENT_STAGE = 'shopping-cart-stage'
         DEPLOYMENT_PRODUCTION = 'shopping-cart-production'
     }
